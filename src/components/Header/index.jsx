@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className={style.header}>
         <h1 className={style.title}>Calculadora IMC</h1>
-        <span className={style.saudacao}>Ola Thalles</span>
+        <img src="./src/assets/imgcalc.png" alt="" />
         </div>
     )
 }

@@ -3,6 +3,7 @@ import Formulario from './components/Formulario'
 import Header from './components/Header'
 
 import './global.css'
+import Resultado from './components/Resultado'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,10 +11,12 @@ function App() {
   return (
     <div className='body'>
     <div className='container'>
-    <main className='conteudo'>
     <Header/>
+    <div className='barra'></div>
+    <div className="calculadora">
     <Formulario/>
-    </main>
+    <Resultado/>
+    </div>
     </div>
       
     </div>

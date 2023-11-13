@@ -10,10 +10,7 @@ const Formulario = () => {
           Calcular IMC
         </button>
       </form>
-      <div className={styles.resultado}>
-        <h3>Resultatdo</h3>
-        <p >Resultado 31.5 Acima do Peso</p>
-      </div>
+      
     </>
   );
 };

@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: black;
 }
 
 body{
-    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+
     background-color: #f1f1f1;
     width: 100vw;
     height: 100vh;
@@ -23,13 +24,34 @@ body{
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    padding: 50px;
+    position: relative;
 }
 
 .conteudo{
     max-width: 800px;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.781);
-    padding: 80px;
+    padding: 200px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.barra {
+    width: 3px;
+    height: 500px;
+    background-color: #a265e457;
+    content: "";
+    position: absolute;
+    top: 100px;
+    right: 420px;
 }
