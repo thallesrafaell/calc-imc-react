@@ -1,6 +1,6 @@
 
 import style from './Header.module.css'
-import Imagem from '.../assets/imgcalc.png'
+import Imagem from './imgcalc.png'
 
 const Header = () => {
     return (
